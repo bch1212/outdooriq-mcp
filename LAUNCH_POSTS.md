@@ -1,6 +1,11 @@
-# OutdoorIQ MCP — Launch Posts (Brett owns timing)
+# OutdoorIQ MCP — Launch Posts (salesbot picks these up)
 
-Per the steady-state policy, Brett picks the day to send these. URLs are live now:
+**Posting ownership:** the salesbot handles publishing on Twitter, Reddit, HN,
+LinkedIn, and Discord on its own schedule. Don't post these manually.
+**Twitter handle to use in copy:** `@brett_halv` (not the product-specific
+`@grantiq.us`).
+
+URLs that need to appear in any post:
 
 - Repo: https://github.com/bch1212/outdooriq-mcp
 - Live MCP: https://mcp.castiq.net/mcp (Railway fallback: https://web-production-9b8950.up.railway.app/mcp)
@@ -75,6 +80,8 @@ Hey PH! Builder here. The "why now" for OutdoorIQ: every agentic outdoor app I s
 ---
 
 ## 4. Twitter / X
+
+**Posted from:** `@brett_halv`
 
 **Thread (5 tweets):**
 

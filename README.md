@@ -33,22 +33,31 @@ Listing & checkout: <https://mcpize.com/outdooriq-mcp>
 
 ## Install in Claude
 
+**Live URL:** `https://mcp.castiq.net/mcp` (Railway fallback: `https://web-production-9b8950.up.railway.app/mcp`)
+
+The fastest path uses [`mcp-remote`](https://github.com/geelen/mcp-remote) as a stdio→HTTP bridge:
+
 ```bash
-claude mcp add outdooriq-mcp --url https://mcp-outdoors.up.railway.app/mcp
+claude mcp add outdooriq-mcp -- npx -y mcp-remote \
+  https://mcp.castiq.net/mcp \
+  --header "X-API-Key:outdooriq-dev-key-001"
 ```
 
-Then set the API key in your client config:
+Or configure manually:
 
 ```json
 {
   "mcpServers": {
     "outdooriq-mcp": {
-      "url": "https://mcp-outdoors.up.railway.app/mcp",
+      "url": "https://mcp.castiq.net/mcp",
       "headers": { "X-API-Key": "outdooriq-dev-key-001" }
     }
   }
 }
 ```
+
+**Anthropic MCP Registry entry:** `io.github.bch1212/outdooriq-mcp` —
+listed at <https://registry.modelcontextprotocol.io>.
 
 **Example agent prompt:**
 > "Find top 5 trout lakes near Chicago for this weekend."

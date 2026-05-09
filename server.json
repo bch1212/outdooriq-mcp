@@ -14,9 +14,9 @@
       "headers": [
         {
           "name": "X-API-Key",
-          "description": "OutdoorIQ API key. Free dev key 'outdooriq-dev-key-001' works for 50 calls/day; Pro at $14/mo via mcpize.com/outdooriq-mcp.",
-          "is_required": true,
-          "is_secret": true
+          "description": "OutdoorIQ API key. Free dev key 'outdooriq-dev-key-001' works for 50 calls/day; Pro at $14/mo.",
+          "isRequired": true,
+          "isSecret": true
         }
       ]
     }

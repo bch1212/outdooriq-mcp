@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.bch1212/outdooriq-mcp",
+  "description": "Paid MCP for fishing/lake/stocking intelligence — 72k+ US lakes, 293k+ events.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/bch1212/outdooriq-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.castiq.net/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "OutdoorIQ API key. Free dev key 'outdooriq-dev-key-001' works for 50 calls/day; Pro at $14/mo via mcpize.com/outdooriq-mcp.",
+          "is_required": true,
+          "is_secret": true
+        }
+      ]
+    }
+  ]
+}

@@ -201,7 +201,7 @@ you've also provisioned the CastIQ Postgres on Railway.
 > outdoor-brand agents. $14/mo Pro for unlimited use, or pay $0.01 per call.
 > Free dev tier (50 calls/day) lets you ship a prototype before opening your
 > wallet. Install with `claude mcp add outdooriq-mcp --url
-> https://mcp-outdoors.up.railway.app/mcp`.
+> https://mcp.castiq.net/mcp`.
 
 ---
 

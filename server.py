@@ -255,7 +255,7 @@ async def banner() -> str:
         "Powered by 72,000+ US lakes and 293,000+ stocking events across 12 states.\n"
         "Pricing: $14/mo Pro or $0.01/call.\n"
         "Listing: https://mcpize.com/outdooriq-mcp\n"
-        "Install: claude mcp add outdooriq-mcp --url https://mcp-outdoors.up.railway.app/mcp\n"
+        "Install: claude mcp add outdooriq-mcp --url https://mcp.castiq.net/mcp\n"
     )
 
 

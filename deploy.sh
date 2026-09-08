@@ -93,5 +93,5 @@ railway up --detach
 # ---------------------------------------------------------------------------
 echo
 echo "Deploy submitted. Tail logs with:    railway logs"
-echo "Add a custom domain with:            railway domain add mcp-outdoors.up.railway.app"
+echo "Add the canonical custom domain:     railway domain mcp.castiq.net --service web"
 echo "Smoke check:                         curl https://<your-railway-url>/health"
